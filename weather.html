@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+  <h2 id="head">Enter city name</h2>
+  <label class="toggle-container">
+    <input type="checkbox" id="themeToggle" />
+    <span class="slider"></span> Dark Mode
+  </label>
+
+  <hr />
+  <input id="input" type="text" placeholder="e.g., Delhi" />
+  <button id="btn">Search</button>
+  <p id="error"></p>
+
+  <div id="recent"></div>
+
+  <div class="container">
+    <!-- Temperature -->
+    <div class="box-wrapper">
+      <h2 class="heading">Temperature</h2>
+      <div class="box"><p id="tdata">--</p></div>
+    </div>
+
+    <!-- Humidity -->
+    <div class="box-wrapper">
+      <h2 class="heading">Humidity</h2>
+      <div class="box"><p id="hdata">--</p></div>
+    </div>
+
+    <!-- Wind Speed -->
+    <div class="box-wrapper">
+      <h2 class="heading">Wind Speed</h2>
+      <div class="box"><p id="wdata">--</p></div>
+    </div>
+
+    <!-- Condition -->
+    <div class="box-wrapper">
+      <h2 class="heading">Condition</h2>
+      <div class="box">
+        <img id="icon" width="80" />
+        <p id="desc">--</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
