@@ -4,7 +4,7 @@ A responsive weather web app built using **HTML**, **CSS**, and **JavaScript** t
 
 ## 🔗 Live Demo
 
-👉 [Click to View Live App](https://PruthvirajGire18.github.io/weather-app)
+👉 [Click to View Live App](https://pruthvirajgire18.github.io/Weather-App/)
 
 ---
 
@@ -42,3 +42,4 @@ cd weather-app
 
 # 3. Run in browser
 Just open index.html in any browser
+
